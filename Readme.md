@@ -7,20 +7,12 @@ Set default values for optional function parameters in JavaScript.
 The current published version:
 
 ```
-npm install atropa-setAsOptionalArg
-```
-
-The bleeding edge development version:
-
-```
 npm install git+https://github.com/matthewkastor/atropa-setAsOptionalArg.git#master
 ```
 
 For some packages I simply publish to the `gh-pages` branch since it's easier to
  generate web docs in the repo and push the whole thing. Check the repo
  if you try installing the `master` branch and don't get what you expect.
-
-This package lives at: [https://npmjs.org/package/atropa-setAsOptionalArg](https://npmjs.org/package/atropa-setAsOptionalArg)
 
 Source code available at: [https://github.com/matthewkastor/atropa-setAsOptionalArg/](https://github.com/matthewkastor/atropa-setAsOptionalArg/)
 

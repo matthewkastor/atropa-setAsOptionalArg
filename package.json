@@ -1,6 +1,6 @@
 {
     "name": "atropa-setAsOptionalArg",
-    "version": "2013.09.27-2334",
+    "version": "2013.09.27-2431",
     "description": "Set default values for optional function parameters in JavaScript.",
     "main": "./src/atropa-setAsOptionalArg.js",
     "directories": {
@@ -43,6 +43,6 @@
         }
     ],
     "dependencies": {
-        "atropa-header": "*"
+        "atropa-header": "git+https://github.com/matthewkastor/atropa-header.git#master"
     }
 }
