@@ -19,7 +19,8 @@
         "buildBrowserModule": "node dev/browserify.js",
         "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s src/",
         "lint": "atropa-jslint ./src/atropa-setAsOptionalArg.js",
-        "srcFormat": "atropa-jsformatter ./src/atropa-setAsOptionalArg.js ./src/atropa-setAsOptionalArg.js"
+        "srcFormat": "atropa-jsformatter ./src/atropa-setAsOptionalArg.js ./src/atropa-setAsOptionalArg.js",
+        "pretest": "node dev/browserify.js"
     },
     "homepage": "https://github.com/matthewkastor/atropa-setAsOptionalArg/",
     "bugs": "https://github.com/matthewkastor/atropa-setAsOptionalArg/issues",
