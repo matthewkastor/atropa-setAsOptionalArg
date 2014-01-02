@@ -1,6 +1,6 @@
 {
   "name": "atropa-setAsOptionalArg",
-  "version": "2014.1.1",
+  "version": "2014.1.2",
   "description": "Set default values for optional function parameters in JavaScript.",
   "main": "./src/atropa-setAsOptionalArg.js",
   "directories": {
