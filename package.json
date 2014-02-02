@@ -21,7 +21,7 @@
     "lint": "atropa-jslint ./src/atropa-setAsOptionalArg.js",
     "srcFormat": "atropa-jsformatter ./src/atropa-setAsOptionalArg.js ./src/atropa-setAsOptionalArg.js",
     "pretest": "node dev/browserify.js",
-    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s node_modules/atropa-header/src/ src/"
+    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./node_modules/jsdoc-toolkit/templates/vsdoc/ -r -s node_modules/atropa-header/src/ src/"
   },
   "homepage": "https://github.com/matthewkastor/atropa-setAsOptionalArg/",
   "bugs": "https://github.com/matthewkastor/atropa-setAsOptionalArg/issues",
